@@ -9,7 +9,7 @@ window.onload = function () {
         function createIframe() {
             console.log('creating iframe...')
             iframe = document.createElement('iframe');
-            iframe.src = `http://localhost:5173/`;
+            iframe.src = `https://pay.getone.club/`;
             iframe.style.cssText = "position: fixed; z-index: 9999; inset: 0; width: 100vw; height: 100vh; display: none;";
             iframe.title = "Chatbot";
             iframe.id = 'iframeButton';
